@@ -83,8 +83,6 @@ private:
 	Node<T>* top;
 	int size;
 	bool unique;
-
-
 };
 
 template <typename T>
@@ -172,7 +170,6 @@ void Menu()
 	{
 		cout << ex.what() << endl;
 	}
-
 }
 
 

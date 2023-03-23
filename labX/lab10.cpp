@@ -59,7 +59,7 @@ int main()
 	{
 		cout << "Введите символ для подсчета:\n";
 		char c;
-		cin >> c;
+		scanf_s("%c", &c);
 
 		vector<int> vc;
 		vc = GetCountersC(file_input, c);
